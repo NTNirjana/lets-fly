@@ -1,0 +1,65 @@
+@media screen and (max-width: 600px) {
+    .header-section {
+        margin-left: 30px;
+
+    }
+
+    .links-nav a {
+        display: none;
+    }
+
+    .nav-img {
+        display: block;
+    }
+
+    .banner-section {
+        flex-direction: column;
+        margin-top: 40px;
+        background-size: cover;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+        padding: 80px 50px 0px 50px;
+    }
+
+    .banner-des {
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        width: 80%;
+        font-weight: 400;
+        line-height: 16px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .banner-form{
+        width: 40%;
+        margin: 25px 100px;
+        padding: 15px;
+    }
+    .ban-form{
+        margin-bottom: 15px;
+    }
+
+    .btn{
+        width: 100%;
+    }
+    .populer-tours{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .list-section-second, .second-para{
+        min-width: 500px;
+    }
+
+
+
+
+
+}
