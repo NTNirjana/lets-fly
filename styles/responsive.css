@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 600px) {
     .header-section {
         margin-left: 30px;
@@ -35,29 +36,67 @@
         margin-left: 30px;
         margin-top: 15px;
     }
-    .banner-form{
+
+    .banner-form {
         width: 40%;
         margin: 25px 100px;
         padding: 15px;
     }
-    .ban-form{
+
+    .ban-form {
         margin-bottom: 15px;
     }
 
-    .btn{
+    .btn {
         width: 100%;
     }
-    .populer-tours{
+
+    .populer-tours {
         margin-top: 20px;
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
         gap: 35px;
     }
-    .list-section-second, .second-para{
+
+    .list-section-second,
+    .second-para {
         min-width: 500px;
     }
 
+    .pictures-list {
+        display: grid;
+        grid-area: auto;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+    .ip {
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 90px;
+    }
+    .first-row,
+    .second-row,
+    .third-row {
+        display: grid;
+        grid-area: auto;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7 {
+        width: 100%;
+        height: 200px;
+    }
 
 
 
