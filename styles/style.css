@@ -358,6 +358,7 @@ banner section */
     line-height: 26px;
     padding-bottom: 40px;
 }
+
 .box-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -365,6 +366,7 @@ banner section */
     width: 100%;
     height: 500px;
 }
+
 .imgb {
     height: 60px;
     width: 60px;
@@ -385,8 +387,212 @@ banner section */
 }
 
 .third-box {
+
+    margin-left: -250px;
+    width: 580px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-   
+}
+
+.map-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 50px;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.map-des {
+    color: #5A5A5D;
+    ;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.newsletter {
+    width: 1180px;
+    margin-top: 100px;
+}
+
+.flxnewsltet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.left-newsletter {
+    padding: 50px;
+    width: 500px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.title-nl {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nl-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.inpt-nl {
+    width: 370px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    padding-left: 20px;
+}
+
+.input-text {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.bttn {
+    margin-top: 25px;
+}
+
+.right-newsletter {
+    width: 590px;
+    height: 440px;
+    border-radius: 16px;
+    background: url('../Images/Rectangle\ 8\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.right-box {
+
+    width: 230px;
+    padding-top: 10px;
+    margin-top: 325px;
+    margin-left: 355px;
+    height: 80px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+.line1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.line2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.footer {
+    padding: 0;
+    margin-left: -60px;
+    width: 1280px;
+    margin-top: 100px;
+    height: 480px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.ftitle {
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.ft {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.ftt {
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.fdes {
+    padding-top: 20px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.socials {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.hr1 {
+    max-width: 60%;
+    margin-left: 20%;
+}
+
+.copyright {
+    color: #131318;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.video {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.vtitle {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.vdescription {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.vlist {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.deals-discounts{
+    margin-top: 100px;
+}
+.deals-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
